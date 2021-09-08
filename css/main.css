@@ -1,0 +1,44 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* MENU PRINCIPAL NETFLIX*/
+header .container {
+    display: flex; /* colocou o itens do menu na mesma linha */
+    flex-direction:row;
+    align-items: center; /* alinha os itens no centro (alinhamento vertical*/
+    justify-content: space-between; /*alinhamento dos itens vertical*/
+}
+
+/* LOGO MARCA MENU*/
+header .Logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black',Times;
+    font-size: 40px;
+    margin-left: 50px;;
+    
+}
+
+/* LINKS DO MENU*/
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+/*EDIÇÃO LINKS MENU*/
+header nav a:hover{ /*ao mouse passar por cima do item selecionado muda a cor */
+    color: #fff;
+}
