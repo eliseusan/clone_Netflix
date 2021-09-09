@@ -9,9 +9,12 @@
     box-sizing: border-box;
 }
 
+/*Elementos bases*/
+
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 /* MENU PRINCIPAL NETFLIX*/
@@ -19,7 +22,7 @@ header .container {
     display: flex; /* colocou o itens do menu na mesma linha */
     flex-direction:row;
     align-items: center; /* alinha os itens no centro (alinhamento vertical*/
-    justify-content: space-between; /*alinhamento dos itens vertical*/
+    justify-content:   safe;/*  space-between; /*alinhamento dos itens vertical*/
 }
 
 /* LOGO MARCA MENU*/
@@ -28,17 +31,41 @@ header .Logo {
     font-family: 'Arial Black',Times;
     font-size: 40px;
     margin-left: 50px;;
+    margin-right: 40px;
     
 }
 
 /* LINKS DO MENU*/
 header nav a{
     text-decoration: none;
-    color:#AAA;
+    color: #fff;
     margin-right: 10px;
+    
 }
 
 /*EDIÇÃO LINKS MENU*/
 header nav a:hover{ /*ao mouse passar por cima do item selecionado muda a cor */
-    color: #fff;
+    color: #AAA;
+}
+
+/*Filme principal*/
+
+.filme-principal{
+ font-size: 16px;
+ background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/inicioazul.jpg');
+ height: 500px;
+ background-size: cover;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
 }
