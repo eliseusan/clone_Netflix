@@ -134,7 +134,7 @@ header nav a:hover{ /*ao mouse passar por cima do item selecionado muda a cor */
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
-    word-wrap: normal;
+    
 
 }
 
@@ -145,4 +145,23 @@ header nav a:hover{ /*ao mouse passar por cima do item selecionado muda a cor */
     font-size: 20px;
     
 
+}
+
+footer{
+    margin-top: 30px;
+   
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+
+
+}
+
+.link img{
+   margin-top: 10px;
+   margin-right: 5px;
+   width: 40px;
 }
